@@ -1,0 +1,62 @@
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+#divAll{
+    display: flex;
+}
+
+#leftbox { 
+    width:280px; 
+    height:620px; 
+    padding: 10px;
+    margin: 80px 20px 40px 80px;
+    background-color:#AAAAAA;
+    flex-direction: column;
+            } 
+#middlebox{ 
+                
+    width:60%; 
+    height:620px; 
+    padding: 10px;
+    margin: 80px 70px 40px 20px;
+    background-color: #AAAAAA;
+    flex-direction: column;
+}
+.back{
+    
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+img{
+    border-radius: 50%;
+}
+.phone2{
+    position: relative;
+    top: 10px;
+}
+.mail{
+    position: relative;
+    top: -40px;
+    
+}
+.git1{
+    cursor:pointer;
+    position:relative;
+    left: 40px;
+    top: -80px;
+}
+.git1:hover{
+    font-weight: 600;
+    font-family: serif; 
+}
+.quora{
+    position: relative;
+    top: -90px;
+}
+.mail1{
+    cursor:pointer;
+}
+
+
